@@ -1,0 +1,7 @@
+// models/block/terminal_core.json
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "error2011:block/terminal_core"
+  }
+}

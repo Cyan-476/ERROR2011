@@ -1,0 +1,4 @@
+// models/item/terminal_core.json
+{
+  "parent": "error2011:block/terminal_core"
+}

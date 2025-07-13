@@ -1,0 +1,73 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'eclipse'
+    id 'maven-publish'
+}
+
+group = 'com.error2011'
+version = '1.0.0'
+archivesBaseName = 'error2011'
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                error2011 {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+}
+
+repositories {
+    maven { url = "https://maven.minecraftforge.net/" }
+    mavenCentral()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title"     : "ERROR2011",
+            "Specification-Vendor"    : "CoolGamer",
+            "Implementation-Title"    : "ERROR2011",
+            "Implementation-Version"  : project.version,
+            "Implementation-Vendor"   : "CoolGamer",
+            // 👻 Creepy Custom Metadata
+            "X-Origin"                : "lost/core/root",
+            "X-Glitch-Level"          : "███░░░",
+            "X-Last-Boot"             : "2011-11-18T00:00:00Z",
+            "X-Warning"               : "she_is_not_gone_yet",
+            "X-Flag"                  : "corruption_active:true",
+            "X-Author"                : "null.pointer",
+            "X-Session"               : "PlayerNull"
+        ])
+    }
+}

@@ -1,0 +1,4 @@
+// models/item/reset_file.json
+{
+  "parent": "error2011:block/reset_file"
+}

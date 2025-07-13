@@ -1,0 +1,7 @@
+// models/block/reset_file.json
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "error2011:block/reset_file"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "all": "error2011:block/corruption_gem"
+  }
+}

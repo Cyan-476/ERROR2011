@@ -1,0 +1,31 @@
+=== [ERROR2011 :: INTERFACE BOOT] ===
+
+> You are PlayerNull.
+> This world is not real. It's a simulation.
+> She is still trapped here... CoolGamer500...
+
+> [GOAL]:
+Patch the core before corruption consumes the system.
+
+> [TERMINAL LOCATION]:
+You must find the Terminal Core.
+Right-click it. Input the correct command.
+
+> [COMMAND]:
+echo_patch.2011
+
+> [WARNING]:
+5 wrong tries locks the system.
+Only scattered reset files can reopen it.
+
+> [TIME LIMIT]:
+20 corrupted in-game days = 30 hours
+Every day matters...
+
+> [UNKNOWN ENDINGS]:
+- [NEUTRAL] : Free her, stabilize the realm.
+- [MADNESS]: Kill her. Enter the code. Finish it all.
+
+Good luck, PlayerNull.
+
+===========================

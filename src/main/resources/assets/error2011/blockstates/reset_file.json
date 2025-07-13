@@ -1,0 +1,6 @@
+// blockstates/reset_file.json
+{
+  "variants": {
+    "": { "model": "error2011:block/reset_file" }
+  }
+}

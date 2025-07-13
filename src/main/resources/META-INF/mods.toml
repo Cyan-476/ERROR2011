@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="error2011"
+version="1.0.0"
+displayName="ERROR2011"
+description='''
+A corrupted interface mod inspired by the mythos of CoolGamer.
+'''

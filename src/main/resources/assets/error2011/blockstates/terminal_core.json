@@ -1,0 +1,6 @@
+// blockstates/terminal_core.json
+{
+  "variants": {
+    "": { "model": "error2011:block/terminal_core" }
+  }
+}
